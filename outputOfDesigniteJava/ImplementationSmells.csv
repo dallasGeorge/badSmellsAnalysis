@@ -1,0 +1,69 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+JsonList-master,com.sjapps.jsonlist,FileSystem,LoadDataFromFile,Magic Number,The method contains a magic number: 100,34
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Complex Method,Cyclomatic complexity of the method is 18,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Long Statement,The length of the statement "if (!(Thread.getDefaultUncaughtExceptionHandler() instanceof CustomExceptionHandler)) Thread.setDefaultUncaughtExceptionHandler(new CustomExceptionHandler(this));" is 162.,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Long Statement,The length of the statement "Snackbar.make(getWindow().getDecorView()`"Loading file in progress` try again later"`BaseTransientBottomBar.LENGTH_SHORT).show();" is 129.,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Long Statement,The length of the statement "if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) dropPermissions=requestDragAndDropPermissions(event);" is 127.,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Long Statement,The length of the statement "if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N && dropPermissions != null) dropPermissions.release();" is 127.,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Magic Number,The method contains a magic number: 150,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Magic Number,The method contains a magic number: .8f,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Magic Number,The method contains a magic number: .8f,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Magic Number,The method contains a magic number: .8f,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,onCreate,Magic Number,The method contains a magic number: .5f,90
+JsonList-master,com.sjapps.jsonlist,MainActivity,LoadData,Magic Number,The method contains a magic number: 500000,332
+JsonList-master,com.sjapps.jsonlist,MainActivity,open,Magic Number,The method contains a magic number: 2,405
+JsonList-master,com.sjapps.jsonlist,MainActivity,open,Magic Number,The method contains a magic number: 500,405
+JsonList-master,com.sjapps.jsonlist,MainActivity,open,Magic Number,The method contains a magic number: 600,405
+JsonList-master,com.sjapps.jsonlist,MainActivity,open_closeSplitView,Long Statement,The length of the statement "functions.setAnimation(this`jsonView`isVertical ? R.anim.slide_bottom_out : R.anim.slide_right_out`new AccelerateDecelerateInterpolator());" is 139.,442
+JsonList-master,com.sjapps.jsonlist,MainActivity,open_closeSplitView,Long Statement,The length of the statement "functions.setAnimation(this`jsonView`isVertical ? R.anim.slide_bottom_in : R.anim.slide_right_in`new DecelerateInterpolator());" is 127.,442
+JsonList-master,com.sjapps.jsonlist,MainActivity,open_closeSplitView,Magic Number,The method contains a magic number: 400,442
+JsonList-master,com.sjapps.jsonlist,MainActivity,ShowJSON,Long Statement,The length of the statement "Snackbar.make(getWindow().getDecorView()`"File is to large to be shown in a split screen!"`BaseTransientBottomBar.LENGTH_SHORT).show();" is 135.,460
+JsonList-master,com.sjapps.jsonlist,MainActivity,ImportFromFile,Long Statement,The length of the statement "Snackbar.make(getWindow().getDecorView()`"Loading file in progress` try again later"`BaseTransientBottomBar.LENGTH_SHORT).show();" is 129.,488
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingStarted,Magic Number,The method contains a magic number: 300,553
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingFinished,Magic Number,The method contains a magic number: 300,573
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingFinished,Magic Number,The method contains a magic number: 100,573
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingFinished,Magic Number,The method contains a magic number: 500,573
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingFinished,Magic Number,The method contains a magic number: 700,573
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingFinished,Magic Number,The method contains a magic number: 900,573
+JsonList-master,com.sjapps.jsonlist,MainActivity,loadingFinished,Magic Number,The method contains a magic number: 1000,573
+JsonList-master,com.sjapps.jsonlist,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 4,13
+JsonList-master,com.sjapps.jsonlist,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+JsonList-master,com.sjapps.jsonlist,ExampleUnitTest,addition_isCorrect,Magic Number,The method contains a magic number: 2,13
+JsonList-master,com.sjapps.about,AboutActivity,CheckForUpdate,Long Statement,The length of the statement "items.add(new ImageListItem("GitHub"`AppCompatResources.getDrawable(this`R.drawable.github_logo)`(ImageItemClick)this::openGitHub));" is 132.,87
+JsonList-master,com.sjapps.adapters,ListAdapter,getItemViewType,Magic Number,The method contains a magic number: 2,98
+JsonList-master,com.sjapps.adapters,ListAdapter,onCreateViewHolder,Magic Number,The method contains a magic number: 2,106
+JsonList-master,com.sjapps.adapters,ListAdapter,onBindViewHolder,Long Statement,The length of the statement "String newPath=path + (path.equals("") ? "" : "///" + (item.getId() != -1 ? "{" + item.getId() + "}" : "")) + item.getName();" is 125.,124
+JsonList-master,com.sjapps.adapters,ListAdapter,onBindViewHolder,Long Statement,The length of the statement "view.findViewById(R.id.btn).setOnClickListener(view1 -> activity.open(JsonData.getPathFormat(newPath)`newPath`position));" is 121.,124
+JsonList-master,com.sjapps.jsonlist.java,JsonData,getPathFormat,Magic Number,The method contains a magic number: 3,80
+JsonList-master,com.sjapps.jsonlist.java,JsonData,getPathFormat,Magic Number,The method contains a magic number: 3,80
+JsonList-master,com.sjapps.jsonlist.java,JsonData,getPathFormat,Magic Number,The method contains a magic number: 3,80
+JsonList-master,com.sjapps.jsonlist.java,JsonData,getName,Complex Conditional,The conditional expression str.startsWith("{") && str.contains("}") && str.substring(1`str.indexOf("}")).matches("^[0-9]+") is complex.,92
+JsonList-master,com.sjapps.jsonlist.java,JsonData,getName,Long Statement,The length of the statement "if (str.startsWith("{") && str.contains("}") && str.substring(1`str.indexOf("}")).matches("^[0-9]+")) return str.substring(str.indexOf("}") + 1);" is 145.,92
+JsonList-master,com.sjapps.jsonlist.java,JsonFunctions,getListFromPath,Complex Conditional,The conditional expression pathString.startsWith("{") && pathString.contains("}") && pathString.substring(1`pathString.indexOf("}")).matches("^[0-9]+") is complex.,137
+JsonList-master,com.sjapps.jsonlist.java,JsonFunctions,getListFromPath,Complex Method,Cyclomatic complexity of the method is 8,137
+JsonList-master,com.sjapps.jsonlist.java,JsonFunctions,getListFromPath,Long Statement,The length of the statement "if (pathString.startsWith("{") && pathString.contains("}") && pathString.substring(1`pathString.indexOf("}")).matches("^[0-9]+")) {" is 131.,137
+JsonList-master,com.sjapps.jsonlist.java,JsonFunctions,getListFromPath,Long Statement,The length of the statement "if (item.getName() == null || !item.getName().equals(id != -1 ? pathString.substring(pathString.indexOf("}") + 1) : pathString)) continue;" is 138.,137
+JsonList-master,com.sjapps.jsonlist.java,ListItem,toString,Long Statement,The length of the statement "return "{" + "\"ID\":" + id + "`\"Name\":"+ (Name != null && !Name.startsWith("\"") ? "\"" : "")+ Name+ (Name != null && !Name.startsWith("\"") ? "\"" : "")+ "` \"Value\":"+ (Value != null && !Value.startsWith("\"") ? "\"" : "")+ Value+ (Value != null && !Value.startsWith("\"") ? "\"" : "")+ "` \"isArray\":"+ isArray+ "` \"isObject\":"+ isObject+ "` \"isSpace\":"+ isSpace+ "` \"Objects\":"+ Objects+ "` \"ListObjects\":"+ ListObjects+ '}';" is 442.,84
+JsonList-master,com.sjapps.jsonlist.java,ListItem,equals,Long Statement,The length of the statement "return isArray() == item.isArray() && isObject() == item.isObject() && isSpace() == item.isSpace() && java.util.Objects.equals(getName()`item.getName()) && java.util.Objects.equals(getValue()`item.getValue()) && java.util.Objects.equals(getObjects()`item.getObjects()) && java.util.Objects.equals(getListObjects()`item.getListObjects());" is 337.,103
+JsonList-master,com.sjapps.jsonlist.java,GetArrayListTest,testGetArrayList,Magic Number,The method contains a magic number: 4,14
+JsonList-master,com.sjapps.jsonlist.java,GetArrayListTest,testGetArrayList,Magic Number,The method contains a magic number: 2,14
+JsonList-master,com.sjapps.jsonlist.java,GetArrayListTest,testGetArrayList,Magic Number,The method contains a magic number: 2,14
+JsonList-master,com.sjapps.jsonlist.java,GetArrayListTest,testGetArrayList,Magic Number,The method contains a magic number: 2,14
+JsonList-master,com.sjapps.jsonlist.java,GetArrayListTest,testGetArrayList,Magic Number,The method contains a magic number: 2,14
+JsonList-master,com.sjapps.jsonlist.java,GetJsonObjectTest,testGetJsonObjectFromString,Magic Number,The method contains a magic number: 2,54
+JsonList-master,com.sjapps.jsonlist.java,GetJsonObjectTest,getJsonObjectFromString,Magic Number,The method contains a magic number: 2,71
+JsonList-master,com.sjapps.jsonlist.java,GetJsonObjectTest,getJsonObjectFromString,Magic Number,The method contains a magic number: 3,71
+JsonList-master,com.sjapps.jsonlist.java,GetJsonObjectTest,getJsonObjectFromString,Magic Number,The method contains a magic number: 4,71
+JsonList-master,com.sjapps.jsonlist.java,GetListFromPathTest,testGetListFromPathWithNestedStructureObject,Magic Number,The method contains a magic number: 2,14
+JsonList-master,com.sjapps.jsonlist.java,GetListFromPathTest,testGetListFromPathWithNestedStructureArrayOfObjects,Magic Number,The method contains a magic number: 4,61
+JsonList-master,com.sjapps.jsonlist.java,GetListFromPathTest,testGetListFromPathWithNestedStructureArrayOfObjects,Magic Number,The method contains a magic number: 2,61
+JsonList-master,com.sjapps.jsonlist.java,GetListFromPathTest,testGetListFromPathWithNestedStructureArrayOfObjects,Magic Number,The method contains a magic number: 3,61
+JsonList-master,com.sjapps.jsonlist.java,GetListFromPathTest,testGetListFromPathGoBack,Magic Number,The method contains a magic number: 2,120
+JsonList-master,com.sjapps.jsonlist.java,IsArrayOfObjectsTest,testIsArrayOfObjects_true2,Magic Number,The method contains a magic number: 2,30
+JsonList-master,com.sjapps.jsonlist.java,IsArrayOfObjectsTest,testIsArrayOfObjects_true3,Magic Number,The method contains a magic number: 2,48
+JsonList-master,com.sjapps.jsonlist.java,IsArrayOfObjectsTest,testIsArrayOfObjects_false2,Magic Number,The method contains a magic number: 123,91
+JsonList-master,com.sjapps.jsonlist.java,JsonFunctionsTest,testGetJsonArray,Magic Number,The method contains a magic number: 2,30
+JsonList-master,com.sjapps.jsonlist.java,JsonFunctionsTest,testGetJsonObject,Magic Number,The method contains a magic number: 2,53
+JsonList-master,com.sjapps.logs,LogActivity,getDeviceInfo,Empty catch clause,The method has an empty catch block.,106
+JsonList-master,com.sjapps.logs,LogActivity,shareLog,Long Statement,The length of the statement "warningDialog.ErrorDialogBuilder(this`true).setTitle("Warning!").setMessage("This reports may include personal information. Check before sharing to anyone").show();" is 164.,138
+JsonList-master,com.sjapps.logs,LogActivity,share,Long Statement,The length of the statement "intentShare.putExtra(Intent.EXTRA_STREAM`FileProvider.getUriForFile(this`getApplicationContext().getPackageName() + ".logs.provider"`FileSystem.createTempFile(this`logTxt.getText().toString()`exportFileName)));" is 210.,171
